@@ -1,0 +1,302 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px 50px;
+    background-color: #7287ae;
+
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+    margin-top: 50px;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+nav a img{
+    margin-top: 20px;
+    width: 250px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a.active,a:hover{
+    color: #e3ecc2;
+    transition: all .3s;
+}
+nav #icon{
+    color: #fff;
+    font-size: 30px;
+    line-height: 80px;
+    cursor: pointer;
+    margin-right: 20px;
+    float: right;
+}
+
+/* £££££££££££££££££££ HEADER START £££££££££££££££££££££ */
+ 
+.header{
+    background-image: url('../img/Shape.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.header::before{
+   position: absolute;
+   content: "";
+   top: 50%;
+   right: 20px;
+   background-image: url("../img/right\ shape.png");
+   width: 73px;
+   height: 179px;
+   z-index: -2;
+}
+.header::after{
+    position: absolute;
+    content: "";
+    bottom: 40px;
+    left: 50px;
+    background-image: url("../img/Bootom\ shape.png");
+    width: 179px;
+    height: 73px;
+    z-index: 2;
+}
+/* .header::before{
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: 0px;
+    background-image: url("../img/header\ last\ shape.png");
+    width: 60%;
+    height: 90vh;
+    z-index: -4;
+ } */
+.header .home{
+   padding: 100px 0;
+}
+.header .home h1{
+    font-size: 80px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.header .home p{
+    font-size: 30px;
+    color: #fff;
+}
+
+
+
+
+/* £££££££££££££££££££ HEADER END £££££££££££££££££££££ */
+
+
+/* £££££££££££££££££££ ABOUT START £££££££££££££££££££££ */
+.about{
+    padding: 100px 0;
+    background-color: #e3ecc2;
+}
+.about .card{
+    border: none;
+    
+}
+.about h1{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 42px;
+}
+.about h2{
+    font-size: 33px;
+}
+.about p{
+    font-size: 25px;
+}
+.about h3{
+    font-weight: 600;
+    font-size: 33px;
+}
+.about button{
+    padding: 10px 50px;
+    background-color: #7287ae;
+
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+    margin-top: 50px;
+   
+}
+.about button a{
+    text-decoration: none;
+    transition: all .3s;
+    color: #fff;
+}
+.about #showDiv{
+    display: none;
+    margin-top: 50px;
+    transition: all .3s;
+}
+
+/* £££££££££££££££££££ ABOUT END £££££££££££££££££££££ */
+
+
+
+/* £££££££££££££££££££ services START £££££££££££££££££££££ */
+.services{
+    padding: 100px 0;
+    text-align: left;
+}
+.services img{
+   width: 100%;
+}
+.services .fist-col{
+   padding: 70px 20px;
+}
+.services h1{
+    font-size: 55px;
+    color: #222;
+    font-weight: 600;
+}
+
+.services p{
+    font-size: 30px;
+    color: #222;
+    padding: 20px 0;
+}
+.services button{
+    font-size: 23px;
+    color: #fff;
+}
+
+/* £££££££££££££££££££ services END £££££££££££££££££££££ */
+
+
+
+
+/* £££££££££££££££££££ order START £££££££££££££££££££££ */
+.order{
+    padding: 100px 0;
+    background-color: #7287ae;
+    text-align: center;
+}
+.order h1{
+    color: #fff;
+}
+.order h2{
+    background-color: #fff;
+    color: #111;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.order h3{
+    color: #fff;
+}
+.order p{
+    color: #fff;
+}
+
+/* £££££££££££££££££££ order END £££££££££££££££££££££ */
+
+
+
+
+/* £££££££££££££££££££ delivery START £££££££££££££££££££££ */
+.delivery{
+    padding: 100px 0;
+    background-image: url("../img/delivery.png");
+    background-position: center;
+    background-size: cover;
+}
+.delivery h1 {
+    font-size: 70px;
+    color: #7287ae;
+}
+.delivery p{
+     margin: 40px 0;
+     font-size: 25px;
+     color: #7287ae;
+}
+.delivery button{
+    color: #fff;
+}
+
+/* £££££££££££££££££££ delivery END £££££££££££££££££££££ */
+
+
+/* £££££££££££££££££££ Footer START £££££££££££££££££££££ */
+  .footer{
+    padding-top: 100px;
+    background-color: #dfe9c1;
+  }
+  .footer .social{
+    padding-bottom: 100px;
+  }
+  .footer .social p{
+      font-size: 25px;
+      color: #7287ae;
+  }
+  .footer .social h2{
+    font-size: 50px;
+    color: #7287ae;
+    margin: 50px 0;
+}
+.footer .social .social-logo i{
+  background-color: #7287ae;
+  color: #dfe9c1;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+.footer .social .social-logo i:hover{
+    transform: scale(120%);
+}
+.footer .bg-footer{
+    background-image: url("../img/footer\ shape.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 70px;
+}
+.footer .bg-footer ol, ul{
+    padding-left: 0;
+}
+.footer .bg-footer ul li a{
+     text-decoration: none;
+     margin-top: 20px;
+     
+}
+/* £££££££££££££££££££ Footer END £££££££££££££££££££££ */
